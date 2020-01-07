@@ -1,0 +1,5 @@
+# .gitignore of my_11ty
+*~
+*.html
+node_modules/
+_site/

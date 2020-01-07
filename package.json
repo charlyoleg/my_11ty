@@ -1,0 +1,18 @@
+{
+  "name": "my_11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pre_build_rst": "find . -name '*.rst' -exec ls -l {} \\;",
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0"
+  }
+}
